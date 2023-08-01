@@ -1,6 +1,6 @@
-export default function getListStudentIds(student_info, city) {
-  if (Array.isArray(student_info)) {
-    return student_info.filter((info) => info.location === city);
+export default function getListStudentIds(studentinfo, city) {
+  if (Array.isArray(studentinfo)) {
+    return studentinfo.filter((info) => info.location === city);
   }
   return [];
 }
